@@ -1,0 +1,27 @@
+**PROJEKTI SUUNNITELMA**
+*KATEGORIA: E*
+ Aihe: yksinkertainen tietokanta opinnäyteartikkeleita varten
+
+Luokat:
+    Tietokanta
+        * SQLite
+        * tallennetut artikkelit
+        * artikkelin lisäys ja poisto, haku- ja listaustoiminnot
+    Artikkeli 
+        ? ladattu artikkeli (teksti (tai URL?)), joka lisätään tietokantaan
+        * toteuttaa Luettelon
+        * Tunnistetiedot
+        * Lukutiedot
+        * Comparable?
+    Sitaatti
+        ? valittu tekstipätkä tietystä artikkelista
+        * toteuttaa Luettelon
+        * perii Artikkelin
+        * to String: default-muotoilu suora lainaus
+    Luettelo (rajapinta)
+        ? listaustoiminnot    
+        * default tuorein ensin
+    Lähdeluettelo
+        ? aakkostettu listaus käytetyistä artikkeleista
+        * toteuttaa Luettelon
+
