@@ -1,3 +1,5 @@
+package com.sainvo.oop.harkka.java;
+
 /** @Sanna Volanen 
  * 
  * creates the reference list from used aka quoted articles
@@ -15,6 +17,6 @@
     }
 */
 
-public class References extends Article implements Listable {
+public class ReferenceListing {
 
 }

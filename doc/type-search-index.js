@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.sainvo.oop.harkka.java","l":"DatabaseFile"}]
