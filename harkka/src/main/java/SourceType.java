@@ -1,5 +1,5 @@
-package com.sainvo.oop.harkka.java;
+//package com.sainvo.oop.harkka.java;
 
 public enum SourceType {
-	JOURNAL, BOOK, 
+	JOURNAL, BOOK
 }

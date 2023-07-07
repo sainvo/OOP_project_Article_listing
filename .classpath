@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="harkka/src/main/java"/>
-	<classpathentry kind="lib" path="harkka/src/main/database/sqlite-jdbc-3.23.1.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" />
+	<classpathentry kind="src" path="harkka/src/main/java" />
+	<classpathentry kind="output" path="bin" />
 </classpath>

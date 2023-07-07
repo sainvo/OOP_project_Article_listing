@@ -1,6 +1,6 @@
-package com.sainvo.oop.harkka.java;
+//package com.sainvo.oop.harkka.java;
 
-import java.net.URL;
+//import java.net.URL;
 
 /**interface to set apart sources that are available online aka downloadable 
  * versus sources that are not (physical books) 
@@ -8,9 +8,6 @@ import java.net.URL;
  * is updated. ( Don't know if this is necessary for this project but anyway) 
  * */
 
- public interface Downloadable{
-	 
-    boolean hasResourceFolder();
-	boolean hasValidURL(String url);
-    
+public interface Downloadable {
+    boolean hasValidURL(String url);
 }

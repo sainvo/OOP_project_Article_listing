@@ -1,26 +1,27 @@
-package com.sainvo.oop.harkka.java;
+//package com.sainvo.oop.harkka.java;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
+//import java.util.Map;
 
 /** @Sanna Volanen  
  * class that creates a citacion 
  * 
 */
 
-public class Citation{
+public class Citation {
+   
     public String quote;
-    public Article root;
+    public Source root;
     private int quoteNumber = 0;
     //combining articleId and quoteNumber into a quoteID with representing integer part and decimal part, respectively.
     public final double quoteID; 
     private ArrayList<Citation> quotes = new ArrayList<Citation>();
 
     //CONSTRUCTOR
-    public Citation(String quote, Article s){
+    public Citation(String quote, Source s) {
     	this.root = s;
-    	double tempId = s.getArticleID(); //the integer part
+    	double tempId = s.getIdNumber(); //the integer part
         if(addQuote()) {
         	quoteNumber++;
         	System.out.println("New quote added.");
@@ -36,7 +37,7 @@ public class Citation{
     public String getQuote(){
         return quote;
     }
-    public Article getSource(){
+    public Source getSource(){
         return root;
     }
     public double getquoteID() {
@@ -49,7 +50,7 @@ public class Citation{
     //METHODS
     public HashMap<String, String> getSourceInformation(){
     	HashMap <String,String> specs = new HashMap<String,String>();
-		specs.put("SOURCE", Double.toString(root.getArticleID()));
+		specs.put("SOURCE", Double.toString(root.getIdNumber()));
 		specs.put("ID", Double.toString(quoteID));
 		specs.put("QUOTE", quote);
 		return specs;

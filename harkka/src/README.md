@@ -6,32 +6,32 @@ Idea: Create a small database for thesis source literature, such as articles (bo
 
 **Implementation plan: (APPROVED)**
 PROJEKTISUUNNITELMA
-*KATEGORIA: E*
- Aihe: yksinkertainen tietokanta opinnäyteartikkeleita varten
+_KATEGORIA: E_
+Aihe: yksinkertainen tietokanta opinnäyteartikkeleita varten
 
 Luokat (Classes):
-    Tietokanta (Database)
-        * SQLite
-        * tallennetut lähdetiedot (archived article specs)
-        * artikkelin lisäys ja poisto, haku- ja listaustoiminnot (functions:add,delete,get, list)
-    
-    Artikkeli 
-        ? ladattu artikkeli (teksti (tai URL?)), joka lisätään tietokantaan (downloaded article that will be added to DB)
+Tietokanta (Database)
+? .xml file
+_ tallennetut lähdetiedot (archived article specs)
+_ artikkelin lisäys ja poisto, haku- ja listaustoiminnot (functions:add,delete,get, list)
+
+    Artikkeli
+        ? ladatun artikkelin URL, joka lisätään tietokantaan (downloaded article's URL that will be added to DB)
         * toteuttaa Luettelon (implements Listable)
         * Tunnistetiedot (ID info)
         * Lukutiedot (data about accessing/opening)
         * Comparable?
-    
+
     Sitaatti (Citacion)
         ? valittu tekstipätkä tietystä artikkelista (selected string from article)
         * toteuttaa Luettelon (implements Listable)
         * perii Artikkelin (inherits Article)
         * to String: default-muotoilu suora lainaus (method for returning direct quote)
-    
+
     Luetteloitava (rajapinta) (Listable interface)
-        ? listaustoiminnot (methods for listing articles/citacions)   
+        ? listaustoiminnot (methods for listing articles/citacions)
         * default tuorein ensin (default order newest first)
-    
+
     Lähdeluettelo
         ? aakkostettu listaus käytetyistä artikkeleista (alphabetized listing of *cited* articles)
         * toteuttaa Luettelon (implements Listable)

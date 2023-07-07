@@ -1,4 +1,4 @@
-package com.sainvo.oop.harkka.java;
+//package com.sainvo.oop.harkka.java;
 
 /** @Sanna Volanen 
  * 
